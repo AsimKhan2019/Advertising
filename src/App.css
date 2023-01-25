@@ -77,3 +77,13 @@ h1,h2 {
   color: var(--heading-color);
 }
 
+.description {
+  color: var(--small-text-color);
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+section {
+  padding: 60px 0px;
+  
+}
