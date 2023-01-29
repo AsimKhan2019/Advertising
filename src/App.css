@@ -94,3 +94,22 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+.light-theme .counter {
+  background: var(--counter-section-bg);
+}
+
+.light-theme .secondary__btn {
+  border: 1px solid var(--primary-color);
+  color: #090238;
+  font-weight: 600;
+}
+
+.light-theme a {
+  font-weight: 500;
+}
+
+.light-theme .team__img {
+  background: #ddd;
+}
+

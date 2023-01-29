@@ -7,6 +7,10 @@
   width: 50%;
 }
 
+.hero__img img {
+  width: 100%;
+}
+
 .hero__content {
   padding-top: 40px;
 }
