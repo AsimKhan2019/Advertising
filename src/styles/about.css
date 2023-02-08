@@ -53,3 +53,35 @@
   color : #fff;
   font-weight: 500;
 }
+
+.light-theme .choose__us-title {
+  color: #0c123d !important;
+}
+
+@media only screen and (max-width:992px) {
+  .about__content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  /* .about__content h2 {
+    font-size: 1.5rem;
+  } */
+
+  .about__wrapper {
+    flex-direction: column;
+  }
+
+  .about__content, .about__img {
+    width: 100%;
+  }
+
+  .about__content {
+    margin-bottom: 30px;
+  }
+
+  .about__img img {
+    height: 400px !important;
+  }
+}
